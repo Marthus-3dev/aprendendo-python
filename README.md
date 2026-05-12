@@ -1,6 +1,9 @@
 # aprendendo-python
 
-## Primeira aula
+## Primeira aula - Técnico Desenvolvimento de sistemas
 
 ### Programando em Python
 - Variáveis
+- Tipos de dados
+    - int
+    - string
