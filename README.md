@@ -7,3 +7,5 @@
 - Tipos de dados
     - int
     - string
+    - float
+    - boolean
