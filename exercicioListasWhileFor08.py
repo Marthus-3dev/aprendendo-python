@@ -5,19 +5,27 @@ print("Iniciando sequencia de lançamento")
 time.sleep(1)
 print("T menos 15 segundos: Orientação é interna. ")
 time.sleep(1)
+countdown = -14
 
-for i in range(-14,-10,1):
-    print(i)
+while countdown < -9:
     time.sleep(1)
-
-print("T menos 9 segundos: Início da sequência de ignição.")
+    print(countdown)
+    countdown += 1
 time.sleep(1)
 
-for i in range(-8,0,1):
-    print(i)
+print("T menos 9 segundos: Início da sequência de ignição.")
+
+countdown += 1
+
+while countdown <= 0:
     time.sleep(1)
+    if countdown != 0:
+        print(countdown)
+        countdown += 1
+    else:
+        break
 
 print("T menos 0 segundos: Todos os motores funcionando")
 time.sleep(1)
-print("Decolagem! Nós temos uma decolagem, a Apollo 11 está em direção a Lua! ")
+print("\nDecolagem! Nós temos uma decolagem, a Apollo 11 está em direção a Lua! ")
 
