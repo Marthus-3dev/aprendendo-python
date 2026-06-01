@@ -16,6 +16,9 @@ while True:
     elif userChoice == 4:
         number1 = float(input("Digite o dividendo: "))
         number2 = float(input("Digite o divisor: "))
+        if number2 == 0 :
+            print("Não é possível dividir por Zero!")
+            continue
         print(f"{number1} / {number2} = {number1/number2}")
     else:
         print("Adeus!!")
