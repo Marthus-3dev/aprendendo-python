@@ -9,7 +9,7 @@ personal_data = {
 
 print(personal_data)
 
-for key,data in personal_data.items():
+for key, data in personal_data.items():
     if key == "idade" and data >= 18:
         print("Maior de idade")
     print(f"{key} : {data}")

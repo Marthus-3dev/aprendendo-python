@@ -3,9 +3,9 @@ person = {
     "idade" : 42,
     "cidade" : "São Paulo"
 }
-for k,v in person:
+for k,v in person.items():
     print(f"{k} : {v}")
 print("==========================")
 person["profissao"] = "Empresario"
-for k,v in person:
+for k,v in person.items():
     print(f"{k} : {v}")
